@@ -112,7 +112,10 @@
            </section>
         </div>
     </header>
-
+        <div class="ventanaFlotante" id="ventanaTetris">
+            <div id="cerrar"><a href="javascript:cerrarTetris()"><img src="icon/cruz.png" class="icono"></a></div>
+            La ventana flotante
+        </div>
     <!-- our -->
     <div id="games" class="our">
         <div class="container">
@@ -138,7 +141,10 @@
                             <div class="Games">
                                 <h3>Tetris</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Jugar</a>
+                                <section>
+                                    <a href="javascript:abrirTetris()">Jugar</a>
+                                </section>
+                                
                             </div>
                         </div>
                     </div>
@@ -410,6 +416,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/plugin.js"></script>
+    <script src="js/base.js"></script>
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
